@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Calibri, 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+}
+
+body {
+    background: url('../svg/Asset\ 1.svg') no-repeat;
+    background-size: cover;
+    margin: 0;
+    background-color: #f9f871;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav {
+    /* margin: 30px; */
+    overflow: hidden;
+    background-color: #322f3d;
+    margin-top: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    float: right;
+}
+
+nav ul li {
+    float: left;
+    padding: 10px 15px;
+}
+
+nav ul li a {
+    color: #f9f871;
+    font-size: large;
+    padding: inherit;
+}
+
+nav ul li a.contact{
+    background-color: #f9f871;
+    color: #322f3d;
+    border-radius: 50px;
+}
+
+nav .logo{
+    padding: 5px 15px;
+    float: left;
+    
+}
+
+nav .logo img{
+    height: 70px;
+}
+
+.title-jumbo {
+    color: #f9f871;
+    margin: 0 auto;
+    width: 80%;
+}
+
+.left-jumbo {
+    flex-grow: 1;
+    width: 50%;
+    /* border: 10px solid #f9f871; */
+    padding: 10px;
+}
+
+.left-jumbo > img {
+    overflow: hidden;
+    width: 100%;
+    height: initial;
+    box-shadow: 0px 0px 10px 10px #666666;
+}
+
+.right-jumbo {
+    flex-grow: 1;
+    width: 50%;
+    /* border: 10px solid #f9f871; */
+    padding: 10px 20px;
+}
+
+.flex-box {
+    display: flex;
+}
+
+.rj-content {
+    margin-bottom: 50px;
+}
+
+.temui {
+    border: 1px solid #f9f871;
+    width: 150px;
+    height: 40px;
+    border-radius: 50px;
+    background-color: #f9f871;
+    box-shadow: 10xp 10px 1px 10px black;
+}
+
+.temui p{
+    color: #322f3d;
+    box-shadow: 10xp 10px 1px 10px black;
+}
