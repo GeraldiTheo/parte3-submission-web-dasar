@@ -184,3 +184,37 @@ footer {
     text-align: center;
     font-weight: bold;
 }
+
+
+@media only screen and (max-width: 900px) {
+    nav {
+        display: grid;
+    }
+
+    nav ul li {
+        
+        padding: 10px 150px;
+    }
+    
+    nav .logo img{
+        height: 70px;
+        display: none;
+    }
+
+    .title-jumbo {
+        display: grid;
+        width: fit-content;
+    }
+    
+    .flex-box {
+        display: grid;
+    }
+
+    .flex-box article{
+        width: inherit;
+    }
+
+    .flex-box aside{
+        width: inherit;
+    }
+}
