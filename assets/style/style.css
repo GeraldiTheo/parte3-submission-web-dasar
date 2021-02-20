@@ -19,7 +19,9 @@ nav {
     /* margin: 30px; */
     overflow: hidden;
     background-color: #322f3d;
+    position: sticky;
     margin-top: 10px;
+    
 }
 
 nav ul {
@@ -36,6 +38,10 @@ nav ul li a {
     color: #f9f871;
     font-size: large;
     padding: inherit;
+}
+
+nav a:hover {
+    font-weight: bold;
 }
 
 nav ul li a.contact{
@@ -58,6 +64,7 @@ nav .logo img{
     color: #f9f871;
     margin: 0 auto;
     width: 80%;
+    margin-top: 100px;
 }
 
 .left-jumbo {
@@ -71,7 +78,7 @@ nav .logo img{
     overflow: hidden;
     width: 100%;
     height: initial;
-    box-shadow: 0px 0px 10px 10px #666666;
+    box-shadow: 0px 0px 100px 1px black;
 }
 
 .right-jumbo {
@@ -95,10 +102,85 @@ nav .logo img{
     height: 40px;
     border-radius: 50px;
     background-color: #f9f871;
-    box-shadow: 10xp 10px 1px 10px black;
+    padding: 10px;
+    display: flex;
+}
+
+.temui img {
+    height: inherit;
 }
 
 .temui p{
     color: #322f3d;
-    box-shadow: 10xp 10px 1px 10px black;
+    font-size: x-large;
+    margin: auto auto;
+}
+
+.break {
+    margin: 150px 0;
+}
+
+.content-article {
+    width: 75%;
+    margin: 0 auto;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 20px;
+    
+}
+
+.card-yellow {
+    background-color: #f9f871;
+    color: #322f3d;
+}
+
+.card-black {
+    background-color: #322f3d;
+    color: #f9f871;
+}
+
+.slider {
+    margin: 0 auto;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.slider img{
+    width: 500px;
+    height: auto;
+    box-shadow: 0px 0px 10px 2px #322f3d;
+}
+
+aside {
+    text-align: center;
+    width: 100em;
+}
+
+aside img {
+    padding: 20px;
+}
+
+aside th {
+    text-align: right;
+    padding-right: 20px;
+}
+
+aside td {
+    text-align: left;
+}
+
+
+
+
+footer {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    background-color: #f9f871;
+    color: inherit;
+    text-align: center;
+    font-weight: bold;
 }
